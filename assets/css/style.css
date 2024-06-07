@@ -943,6 +943,14 @@ section {
 .services .iconbox-teal:hover .icon path {
   fill: #11dbcf;
 }
+.icon-img{
+  max-width: 97px;
+  border-radius: 370px;
+  opacity: 57%;
+}
+.icon-img:hover{
+opacity: 100%;
+}
 
 /*--------------------------------------------------------------
 # Testimonials
