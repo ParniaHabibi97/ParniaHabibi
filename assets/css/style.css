@@ -286,7 +286,7 @@ h6 {
   width: 100%;
   height: auto;
   z-index: 0; /* Place video behind other content */
-  opacity: 49%;
+  opacity: 57%;
 }
 .container {
   position: relative;
