@@ -1025,6 +1025,21 @@ opacity: 100%;
   right: 10px;
   cursor: pointer;
 }
+.carousel-control-prev-icon{
+  background-color: rgb(147, 147, 147);
+  margin-right: 57px;
+}
+.carousel-control-prev-icon:hover{
+  background-color: rgb(77, 77, 77);
+}
+.carousel-control-next-icon{
+  background-color: rgb(147, 147, 147);
+  margin-left: 57px;
+}
+.carousel-control-next-icon:hover{
+  background-color: rgb(77, 77, 77);
+}
+
 
 /*--------------------------------------------------------------
 # Testimonials

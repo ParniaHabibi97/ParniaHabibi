@@ -273,6 +273,8 @@
 document.querySelectorAll('.certificate-btn').forEach(function(button) {
   button.addEventListener('click', function() {
       document.getElementById('lightbox').style.display = 'block';
+      // Initialize the carousel
+      $('#carouselExampleControls').carousel();
   });
 });
 
