@@ -269,3 +269,13 @@
   new PureCounter();
 
 })()
+
+document.querySelectorAll('.certificate-btn').forEach(function(button) {
+  button.addEventListener('click', function() {
+      document.getElementById('lightbox').style.display = 'block';
+  });
+});
+
+function closeLightbox() {
+  document.getElementById('lightbox').style.display = 'none';
+}
